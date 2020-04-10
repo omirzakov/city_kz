@@ -1,0 +1,73 @@
+
+.add-city__form {
+    width: max-content;
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 20px 50px;
+    position: relative;
+}
+
+
+.add-city__form input {
+    display: block;
+    margin-top: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 15px;
+    background-color: dodgerblue;
+    transition: 0.3s linear;
+}
+
+.add-city__form input:focus {
+    border-bottom: 2px solid yellow;
+    color: yellow;
+}
+
+.addcity__btn {
+    margin-top: 40px;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper h3 {
+    color: white;
+}
+
+
+
+
+
+
+.main-pg {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.main-pg a {
+    color: white;
+    font-size: 20px;
+    transition: 0.3s ease-out;
+}
+
+.main-pg a:hover {
+    color: yellow;
+}

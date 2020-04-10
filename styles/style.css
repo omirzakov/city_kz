@@ -1,0 +1,80 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.add-city__btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+    margin-left: 40px;
+}
+
+.add-name__btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+    margin-left: 40px;   
+}
+
+
+.cities-kz {
+    margin-top: 40px;
+}
+
+.cities-kz ul li {
+    background-color: tomato;
+}
+
+
+.chat-bot {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    z-index:100;
+}
+
+.chat-bot a {
+    color: white;
+    position: relative;
+    top: 25px;
+    transition: 0.3s;
+
+}
+
+.chat-bot a:hover {
+    color: yellow;
+}
+
+.chat-menu {
+    position: fixed;
+    bottom: 20px;
+    border-radius: 5px;
+    right: 20px;
+    min-width: 400px;
+    height: 150px;
+    background-color: dodgerblue;
+    visibility: hidden;
+    z-index: 101;
+}
+
+.chat-menu a {
+    display: block;
+}
